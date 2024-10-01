@@ -20,6 +20,22 @@ public class UseOfException {
         }
     }
 
+
+    //exercise
+    void rte() throws RuntimeException{
+        throw new RuntimeException("RTE");
+    }
+
+    void ce() throws Exception {
+        throw new Exception("ex");
+    }
+
+    //how to fix this?
+/*    void caller() {
+        rte();
+        ce();
+    }*/
+
     public static void main(String[] args) {
         new UseOfException().tryWithNoCatch();
     }
