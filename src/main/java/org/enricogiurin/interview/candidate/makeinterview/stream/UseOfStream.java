@@ -1,5 +1,6 @@
-package org.enricogiurin.interview.candidate.makeinterview;
+package org.enricogiurin.interview.candidate.makeinterview.stream;
 
+import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -12,15 +13,23 @@ public class UseOfStream {
 
 
     /**
-     * Given a list of string return the list containing
+     * Given an array of string return the list containing
      * only those whose length is greater or equal to 3 (>=3)
      * example:
      * ["aab", "aa", "aabbcc", ""] -> ["aab", ""aabbcc"]
-     * @param list
+
      */
-    private List<String> filter(List<String> list){
+    private List<String> stream(String[] array){
 
         return null;
+    }
+
+    private List<String> streamSolution(String[] array){
+        return Arrays.asList(array)
+            .stream()
+            .filter(s->s.length()>=3)
+            .toList();
+
     }
 
     /**

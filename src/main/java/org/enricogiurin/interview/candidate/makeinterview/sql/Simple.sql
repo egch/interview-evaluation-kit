@@ -15,6 +15,27 @@
 
 
 
+ /*
+  Order
+ +--------------+---------+
+| Column Name  | Type    |
++--------------+---------+
+| order_id     | int     |
+| product_id   | int     | -- Foreign key to Product table
+| quantity     | int     |
+| order_date   | date    |
++--------------+---------+
+  */
+
+/**
+  Write an SQL query to retrieve all the orders for a specific product, identified by its name (e.g., 'Smartphone').
+ */
+
+
+SELECT Product.product_id, Product.product_name, Product.price, Order.order_id, Order.quantity, Order.order_date
+FROM Product
+         INNER JOIN Order ON Product.product_id = Order.product_id
+WHERE Product.product_name = 'Smartphone';
 
  update Product set price = 200 where  product_name like '%car%'
 
