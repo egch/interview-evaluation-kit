@@ -1,4 +1,4 @@
-package org.enricogiurin.interview.candidate.makeinterview;
+package org.enricogiurin.interview.candidate.makeinterview.coding;
 
 import java.util.Arrays;
 import java.util.HashSet;

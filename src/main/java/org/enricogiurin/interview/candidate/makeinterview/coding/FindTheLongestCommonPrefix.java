@@ -1,4 +1,4 @@
-package org.enricogiurin.interview.candidate.makeinterview;
+package org.enricogiurin.interview.candidate.makeinterview.coding;
 /*
 Write a function to find the longest common prefix string amongst an array of strings.
 

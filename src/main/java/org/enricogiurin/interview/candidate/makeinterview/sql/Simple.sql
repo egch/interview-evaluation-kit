@@ -10,7 +10,7 @@
 
  Problem: change the price to 200 to the all the products containing the word 'Car' in product_name
  Problem: return all the products having price >=200 sorted by id desc
- Problem: return all the products containing the word 'Car' in product_name, sorted by id desc
+ Problem: return all the products containing the word 'Car' in product_name, sorted by product_id desc
  */
 
 

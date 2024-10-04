@@ -1,6 +1,6 @@
 package org.enricogiurin.interview.candidate.makeinterview;
 
-public class UseOfThreads {
+public class UsageOfThreads {
     public static void main(String[] args) {
         //start a thread with an instance of MyRunnable
         MyRunnable mr = new MyRunnable();

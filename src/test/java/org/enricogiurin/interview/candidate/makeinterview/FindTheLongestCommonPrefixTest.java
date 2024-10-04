@@ -1,5 +1,6 @@
 package org.enricogiurin.interview.candidate.makeinterview;
 
+import org.enricogiurin.interview.candidate.makeinterview.coding.FindTheLongestCommonPrefix;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

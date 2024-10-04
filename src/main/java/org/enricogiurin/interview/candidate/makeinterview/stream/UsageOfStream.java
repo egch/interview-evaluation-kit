@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class UseOfStream {
+public class UsageOfStream {
 
     public static void methodReference(){
         List<Integer> list = List.of(2, 3, 4, 5);
@@ -16,7 +16,7 @@ public class UseOfStream {
      * Given an array of string return the list containing
      * only those whose length is greater or equal to 3 (>=3)
      * example:
-     * ["aab", "aa", "aabbcc", ""] -> ["aab", ""aabbcc"]
+     * ["aab", "aa", "aabbcc", "", "ab"] -> ["aab", ""aabbcc"]
 
      */
     private List<String> stream(String[] array){
