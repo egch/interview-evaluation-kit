@@ -20,17 +20,16 @@ public class UsageOfStream {
 
      */
     private List<String> stream(String[] array){
-
+        //write your solution here
         return null;
     }
 
-    private List<String> streamSolution(String[] array){
-        return Arrays.asList(array)
-            .stream()
-            .filter(s->s.length()>=3)
+    private List<String> stream_solution(String[] array) {
+        return Arrays.stream(array)
+            .filter(s -> s.length() >= 3)
             .toList();
-
     }
+
 
     /**
      * Given a list of string return the upper case version

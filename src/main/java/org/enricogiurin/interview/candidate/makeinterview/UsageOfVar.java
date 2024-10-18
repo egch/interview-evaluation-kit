@@ -6,9 +6,11 @@ public class UsageOfVar {
 
 
   //does this method compile?
-/*  void hello() {
+/*
+  void hello() {
     var x = 5;
     x = "dog"
-  }*/
+  }
+  */
 
 }

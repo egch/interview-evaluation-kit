@@ -4,7 +4,9 @@ public class UsingFunctionalInterface {
 
   public static void main(String[] args) {
     TaskManager taskManager = new TaskManager();
-    //How would you call the executeTask method by passing a Task using a lambda expression?"
+
+    // How would you call the executeTask method by passing a Task using a lambda expression?
+    //taskManager.executeTask(..., "desc");
   }
 
 

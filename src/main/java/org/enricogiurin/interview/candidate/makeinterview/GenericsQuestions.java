@@ -5,14 +5,7 @@ import java.util.List;
 
 public class GenericsQuestions {
 
-    public void compare() {
-        String s1 = "s1";
-        String s2 = "s1";
-        String s3 = new String("s1");
 
-
-
-    }
     public void list(){
         List<String> listGenerics =  List.of("s1", "s2", "s3");
 

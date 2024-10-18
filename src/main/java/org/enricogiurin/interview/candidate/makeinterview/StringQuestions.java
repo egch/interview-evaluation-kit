@@ -2,6 +2,7 @@ package org.enricogiurin.interview.candidate.makeinterview;
 
 public class StringQuestions {
 
+
     /**
      * Return true if the string is palindrome
      * Example: "abcba" -> true
