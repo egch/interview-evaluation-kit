@@ -6,7 +6,7 @@ The system is such that:
 
 The first 2 characters consist of a code for passenger
 The next character (single) denotes the gender of the person.
-The following two characters are used to indicate the age of the person.
+The following two characters are used to indicate the age of the person!!!!
 The last two characters determine the seat allotted to that person.
 Return the number of passengers who are strictly more than 60 years old. (>60)
 
