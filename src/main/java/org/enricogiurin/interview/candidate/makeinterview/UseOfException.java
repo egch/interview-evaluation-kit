@@ -7,7 +7,7 @@ public class UseOfException {
     }
 
     public void ex2() {
-        throw  new RuntimeException("");
+        //throw  new RuntimeException("");
     }
 
     void tryWithNoCatch() {
