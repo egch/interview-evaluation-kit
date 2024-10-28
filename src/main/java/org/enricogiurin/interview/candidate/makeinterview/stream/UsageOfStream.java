@@ -24,6 +24,27 @@ public class UsageOfStream {
         return null;
     }
 
+    /*
+    Write a method that takes an array of integers and returns the count of even numbers in the array using Java Streams.
+    Example:
+    Input: [1, 2, 3, 4, 5, 6]
+    Output: 3
+    Explanation: The even numbers are 2, 4, and 6, so the count is 3.
+
+    Input: [7, 9, 13]
+    Output: 0
+    Explanation: There are no even numbers in the array.
+     */
+    private long countEvenNumbers(int[] array){
+        return -1;
+    }
+    private long countEvenNumbers_solution(int[] array){
+        return  Arrays.stream(array)
+            .filter(n->n%2==0)
+            .count();
+
+    }
+
     private List<String> stream_solution(String[] array) {
         return Arrays.stream(array)
             .filter(s -> s.length() >= 3)
