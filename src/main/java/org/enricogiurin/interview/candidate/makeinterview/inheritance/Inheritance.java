@@ -1,4 +1,4 @@
-package org.enricogiurin.interview.candidate.makeinterview;
+package org.enricogiurin.interview.candidate.makeinterview.inheritance;
 
 public class Inheritance {
 //Q: Are constructors inherited in Java? Why or why not?
