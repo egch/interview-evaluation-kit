@@ -25,8 +25,12 @@ class Person {
     this.age = DEFAULT_AGE;
   }
 
-  public Person() {
-    this.name = DEFAULT_NAME;
-    this.age = DEFAULT_AGE;
-  }
+
 }
+
+//solution
+/*
+public Person() {
+  this("a", 2);
+}
+*/
