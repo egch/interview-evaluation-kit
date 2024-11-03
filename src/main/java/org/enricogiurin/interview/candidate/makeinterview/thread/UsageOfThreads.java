@@ -1,4 +1,4 @@
-package org.enricogiurin.interview.candidate.makeinterview;
+package org.enricogiurin.interview.candidate.makeinterview.thread;
 
 public class UsageOfThreads {
     public static void main(String[] args) {
