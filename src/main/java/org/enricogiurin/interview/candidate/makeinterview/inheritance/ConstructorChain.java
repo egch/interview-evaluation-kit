@@ -25,8 +25,15 @@ class Person {
     this.age = DEFAULT_AGE;
   }
 
-
 }
+
+//define the cosntructors here
+/*
+class Student extends Person {
+    private String schoolName;
+    private String grade;
+}
+*/
 
 //solution
 /*
