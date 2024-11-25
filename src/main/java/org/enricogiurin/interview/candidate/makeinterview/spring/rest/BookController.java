@@ -14,7 +14,7 @@ public class BookController {
 
 
 @Service
-class BookServiceImpl {
+class BookService {
 
   private final List<String> books = new ArrayList<>();
 
