@@ -38,6 +38,8 @@ public class UsageOfStream {
     private long countEvenNumbers(int[] array){
         return -1;
     }
+
+
     private long countEvenNumbers_solution(int[] array){
         return  Arrays.stream(array)
             .filter(n->n%2==0)
